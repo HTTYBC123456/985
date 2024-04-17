@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* ID选择器:通过标签的ID属性来查找元素 */
+        /*  */
+        #p1{
+            color: red;
+        }
+        #p2{
+            color: blue;
+        }
+        #p3{
+            color: green;
+        }
+        #p4{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <!-- 在W3C的规范中，我们的标签name可以同名，但是ID应该是唯一的 -->
+    <p id="p1">i am p</p>
+    <p id="p2">i am p</p>
+    <p id="p3">i am p</p>
+    <p id="p4">i am p</p>
+    <!-- 此处ID选择器发挥了类选择器的效果，但是从W3C的规范角度而言，不合适 -->
+    <h1 id="p1">i am p</h1>
+</body>
+</html>
